@@ -1,0 +1,90 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+body {
+	margin-top: 20px;
+	
+}
+
+.contenedor {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	width: 90%;
+	margin: auto;
+	grid-row-gap: 20px;
+}
+
+.titulo, .footer, .navegacion, .contenido, .anuncio {
+	grid-column: 1/6;
+	background-color: #fff;
+}
+
+.titulo {
+	height: 100px;
+	
+}
+
+.titulo__imagen {
+	height: 50%;
+	padding: 20px;
+	float: left;
+	transition: 1s all;
+	
+}
+
+.titulo__imagen:hover {
+	transform: scale(1.3);
+}
+
+
+.titulo > h1 {
+	display: inline-block;
+	margin: 30px 0px;
+	font-family: helvetica;
+}
+
+.titulo > h1::after {
+	content: "osotros";
+	margin-left: 2%;
+	padding: 20px;
+	background-color: #738;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.anuncio {
+	height: 150px;
+	overflow: hidden;
+	background-image: url("https://c.tenor.com/VMzEdjRB5CEAAAAC/pornhub-logo.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 10% 50%;
+	background-attachment: scroll;
+}
+
+
+.footer {
+	top: 80px;
+	bottom: 25px;
+	margin-bottom: 25px;
+	height: 70px;
+	background-color: #111;
+	position: relative;
+}
+
+.footer img {
+	height: 150px;
+	position: absolute;
+	bottom: 0px;
+	left: 13%;
+}
+.footer h2 {
+	position: relative;
+	margin-top: 20px;
+	margin-left: 10px;
+	color: #fff;
+	font-family: helvetica;
+}

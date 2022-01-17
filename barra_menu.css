@@ -1,0 +1,58 @@
+.navegacion ul {
+	padding: 5px;
+	position: relative;
+	min-width: 540px;
+	
+	
+
+}
+
+.navegacion ul li  {
+	display: inline-block;
+	font-family: helvetica;
+	list-style: none;
+	padding: 5px;
+	transition: .5s all;
+	
+}
+
+.navegacion ul li:hover {
+	background-color: blueviolet;
+	border-radius: 5px;
+	transform: scale(1.1);
+}
+
+
+.navegacion ul li a {
+	color: #000;
+	text-decoration: none;
+	padding: 20px;
+
+}
+
+.navegacion ul li a:hover {
+	color: #fff;
+}
+
+.navegacion ul li:nth-child(4) {
+	position: absolute;
+	right: 5px;
+}
+
+.navegacion ul li:nth-child(4):hover {
+	background-color: #348;
+
+
+}
+
+.navegacion ul li:nth-child(4) a:hover {
+	color: #fff;
+
+}
+
+
+
+
+
+
+
